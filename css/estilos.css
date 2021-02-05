@@ -50,5 +50,12 @@ body
     text-align: center;
     padding: 0.5em;
 }
+#footer .redes a{
+   color: #fff;
+   text-decoration: none;
+   margin: 0 10px;
+}
 
-
+#footer .redes a:hover{
+    text-decoration: underline;
+}
