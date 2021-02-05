@@ -16,8 +16,24 @@ body
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
+#cabecera nav ul li{
+    display: inline-block;
+    margin: 0 4px;
+}
+#cabecera nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+}
+#cabecera nav ul li a:hover{
+    text-decoration: underline;
+}
 #cabecera #tagline
 {
     padding: 0 0 0 1em;
